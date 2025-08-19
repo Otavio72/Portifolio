@@ -10,21 +10,18 @@ app.get('/index',(req,res)=>{
     res.sendFile(path.join(__dirname, '/static/html/app/index.html'));
 });
 
-app.get('/index2',(req,res)=>{
-    res.sendFile(path.join(__dirname, '/static/html/app/badges.html'));
+app.get('/ACS',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/ACS.html'));
 });
 
-app.get('/index3',(req,res)=>{
-    res.sendFile(path.join(__dirname, '/static/html/app/blank-page.html'));
+app.get('/GFP',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/GFP.html'));
 });
 
-//app.get('/sobre',(req,res)=>{
-  //  res.send("<h1>SOBRE</h1>");
-//});
+app.get('/IMP',(req,res)=>{
+    res.sendFile(path.join(__dirname, '/static/html/app/IMP.html'));
+});
 
-//app.get('/',(req,res)=>{
-  //  res.send("<h1>SALVE</h1>");
-//});
 
 app.listen(port,()=>{
     console.log("Servidor rodando");
