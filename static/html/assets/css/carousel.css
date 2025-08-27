@@ -19,7 +19,7 @@
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 33rem;
+  height: 35.5rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -83,3 +83,5 @@
     margin-top: 7rem;
   }
 }
+
+

@@ -9949,4 +9949,10 @@ a.text-dark:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
